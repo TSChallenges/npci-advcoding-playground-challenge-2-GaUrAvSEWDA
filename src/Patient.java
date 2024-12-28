@@ -26,6 +26,54 @@ class Patient {
     /* The below equals() and hashCode() methods are crucial for the proper functioning of 
        collections like HashSet, HashMap, and other hash-based collections. */
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getSymptoms() {
+        return symptoms;
+    }
+
+    public void setSymptoms(String symptoms) {
+        this.symptoms = symptoms;
+    }
+
+    public String getTreatment() {
+        return treatment;
+    }
+
+    public void setTreatment(String treatment) {
+        this.treatment = treatment;
+    }
+
+    public String getAppointmentDay() {
+        return appointmentDay;
+    }
+
+    public void setAppointmentDay(String appointmentDay) {
+        this.appointmentDay = appointmentDay;
+    }
+
     // Override equals() to compare Patient objects based on name, age, and gender
     @Override
     public boolean equals(Object obj) {
